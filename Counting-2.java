@@ -18,6 +18,7 @@ public class Main
         //System.out.println("counter: "+counter);
 	    int number = inputReader.nextInt ();
 	    System.out.println ("Your entered number was: " + number);
+	    //Check input number between 0~999
 	    if (number>=0 && number<=999) {
 	        counter += 1;
 	        totalValues = totalValues + number;
