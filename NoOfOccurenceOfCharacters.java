@@ -27,7 +27,7 @@ class NoOfOccurenceOfCharacters {
 		char ch[] = new char[str.length()];
 		for (int i = 0; i < len; i++) {
 			ch[i] = str.charAt(i);
-			int find = 0;
+			int find = 0; //a flag to detect matches found
 			for (int j = 0; j <= i; j++) {
 
 				// If any matches found
